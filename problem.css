@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    font-size: 100%;
+    background-color: #d9d9d9;
+    display: absolute;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+img{
+    border-radius: 100%;
+    border: #545454 solid ;
+    width: 15vh;
+}
+
+h3{
+    color: rgb(255,100,100);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6vh;
+    margin-right: 10vh;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 4vh; 
+    margin-bottom: 2vh;
+}
+
+.cabecalho-logo{
+    font-family: 'Inter';
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cabecalho-logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.cabecalho-nav{
+    display: flex;
+    gap: 4vh;
+    text-transform: uppercase;
+    font-size: 120%;
+
+}
+
+.cabecalho-nav-item{
+    color:black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cabecalho-nav-item:hover{
+    transform: scale(1.1);
+}
+
+.corpo{
+    background: linear-gradient(to top, rgb(255,255,255), rgba(0,0,0,0));
+    width: 45vh;
+    height: 50vh;
+    margin: auto;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5vh;
+    box-shadow: 5px 5px 10px #545454;  
+    border-radius: 15px;
+}
+
+.corpo-titulo{
+    font-family: 'Inter';
+    font-size: 300%;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.corpo-titulo:hover{
+    transform: scale(1.5);
+}
+
+.corpo-sub-titulo{
+    margin-top: 5vh;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.corpo-itens{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.corpo-item{
+    font-family: 'Inter';
+    font-size: 150%;
+}
+
+
